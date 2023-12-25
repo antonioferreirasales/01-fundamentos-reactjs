@@ -1,0 +1,14 @@
+.wrapper {
+  max-width: 70rem;
+  margin: 2rem auto;
+
+  /* para evitar que ao diminuir a tela os elementos fiquem rente a borda */
+  padding: 0 1rem;
+
+  display: grid;
+  grid-template-columns: 256px 1fr;
+  gap: 2rem;
+
+  /* para evitar o padrão stretch */
+  align-items: flex-start;
+}
