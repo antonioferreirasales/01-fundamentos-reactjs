@@ -6,7 +6,7 @@ import { Avatar } from "./Avatar"
 export function Comment() {
   return (
     <div className={styles.comment}>
-          <Avatar hasBorder={false} src="https://s3-alpha-sig.figma.com/img/1afa/bda4/0b7ca842e82cf6faa6aac8e2c9970d59?Expires=1704672000&Signature=mAODzrW4mDTuvmGT9TOqsASICFwnWcoolpfcgOdgpLLsYRt2jjRDoeSmt8IGJ0oTs9mHwo4yCDm0nG4mtWzDCnipddIJ56NJdVShZi0YZPWYpm~OPU2PdUavmHPPSYZX6f6gbqeJk8b-P2Ky5nY0tWF3TLtSp3Haz4GQbYqM6Y4WxBRCnrUFU49~rOcinD4my2AnW3eAVwIkVzvIuLsluAcpG5-3d3sAIeF2lcXLnKzC7ejw8cgtUZc2o9zYiCMr-vmOVTDLsV9o2LYv2FacH8b0hBEWKeWVKX8V~RuJrh89veGoUv9je0yh3EBskF7a4OZJpqIbzHT1OUR~Oz9oPA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" />
+          <Avatar hasBorder={false} src="https://github.com/diego3g.png" />
           <div className={styles.commentBox}>
             <div className={styles.commentContent}>
               <header>

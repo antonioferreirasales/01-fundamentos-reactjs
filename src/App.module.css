@@ -12,3 +12,14 @@
   /* para evitar o padrão stretch */
   align-items: flex-start;
 }
+
+/* responsividade */
+@media (max-width: 768px) {
+  html {
+    font-size: 87.5%;
+  }
+
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+}
